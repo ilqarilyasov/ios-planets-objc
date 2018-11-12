@@ -15,6 +15,8 @@
 		82CC07D6219A2488008B78C7 /* LSPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC07D5219A2488008B78C7 /* LSPlanetsCollectionViewController.m */; };
 		82CC07DA219A26D4008B78C7 /* LSPlanetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC07D9219A26D4008B78C7 /* LSPlanetCollectionViewCell.m */; };
 		82CC07DE219A289D008B78C7 /* LSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC07DD219A289D008B78C7 /* LSSettingsViewController.m */; };
+		82CC07E1219A2AC1008B78C7 /* LSPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC07E0219A2AC1008B78C7 /* LSPlanet.m */; };
+		82CC07E5219A2AD5008B78C7 /* LSPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC07E4219A2AD5008B78C7 /* LSPlanetController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		82CC07D9219A26D4008B78C7 /* LSPlanetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanetCollectionViewCell.m; sourceTree = "<group>"; };
 		82CC07DC219A289D008B78C7 /* LSSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSSettingsViewController.h; sourceTree = "<group>"; };
 		82CC07DD219A289D008B78C7 /* LSSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSSettingsViewController.m; sourceTree = "<group>"; };
+		82CC07DF219A2AC1008B78C7 /* LSPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPlanet.h; sourceTree = "<group>"; };
+		82CC07E0219A2AC1008B78C7 /* LSPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanet.m; sourceTree = "<group>"; };
+		82CC07E3219A2AD5008B78C7 /* LSPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSPlanetController.h; sourceTree = "<group>"; };
+		82CC07E4219A2AD5008B78C7 /* LSPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSPlanetController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 		82CC07BB219A23A0008B78C7 /* Planets Objc */ = {
 			isa = PBXGroup;
 			children = (
+				82CC07E2219A2AC5008B78C7 /* Model */,
+				82CC07E6219A2AD8008B78C7 /* Model Controller */,
 				82CC07DB219A26D7008B78C7 /* View */,
 				82CC07D7219A2495008B78C7 /* View Controller */,
 				82CC07D3219A23C4008B78C7 /* Storyboard */,
@@ -111,6 +119,24 @@
 				82CC07D9219A26D4008B78C7 /* LSPlanetCollectionViewCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		82CC07E2219A2AC5008B78C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82CC07DF219A2AC1008B78C7 /* LSPlanet.h */,
+				82CC07E0219A2AC1008B78C7 /* LSPlanet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82CC07E6219A2AD8008B78C7 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				82CC07E3219A2AD5008B78C7 /* LSPlanetController.h */,
+				82CC07E4219A2AD5008B78C7 /* LSPlanetController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +210,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CC07CC219A23A1008B78C7 /* main.m in Sources */,
+				82CC07E5219A2AD5008B78C7 /* LSPlanetController.m in Sources */,
 				82CC07DA219A26D4008B78C7 /* LSPlanetCollectionViewCell.m in Sources */,
 				82CC07BE219A23A0008B78C7 /* AppDelegate.m in Sources */,
 				82CC07D6219A2488008B78C7 /* LSPlanetsCollectionViewController.m in Sources */,
+				82CC07E1219A2AC1008B78C7 /* LSPlanet.m in Sources */,
 				82CC07DE219A289D008B78C7 /* LSSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
