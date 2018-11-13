@@ -7,8 +7,14 @@
 //
 
 #import "LSPlanet.h"
+#import <UIKit/UIKit.h>
 
 @implementation LSPlanet
+
+// MARK: Initializer method
+
+// - (returnType)methodNameWith1stParameterExternalName: (1stParameterType*) 1stParameterLocalName
+//                          2ndParameterName:(2ndParameterExternalName*) 2ndParameterLocalName;
 
 - (instancetype)initWithImageName:(NSString *)imageName name:(NSString *)name {
     self = [super init];

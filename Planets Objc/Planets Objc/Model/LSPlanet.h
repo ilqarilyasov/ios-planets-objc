@@ -14,10 +14,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 // MARK: - Properties
 
+// @property (attribute) propertyType* propertyName;
+
 @property (nonatomic) NSString* name;
 @property (nonatomic) NSString* imageName;
 
-// MARK: - Initializer
+// MARK: - Initializer declaration
+
+// - (returnType)methodNameWith1stParameterExternalName: (1stParameterType*) 1stParameterLocalName
+//                          2ndParameterName:(2ndParameterExternalName*) 2ndParameterLocalName;
 
 - (instancetype)initWithImageName: (NSString*)imageName name:(NSString*)name;
 
