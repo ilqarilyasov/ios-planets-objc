@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UISwitch *showPlutoSwitch;
 
+- (IBAction)doneTapped:(id)sender;
+- (IBAction)showPluto:(id)sender;
+
 @end
 
 NS_ASSUME_NONNULL_END

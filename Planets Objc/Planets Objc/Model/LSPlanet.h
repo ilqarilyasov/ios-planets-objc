@@ -16,8 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 // @property (attribute) propertyType* propertyName;
 
-@property (nonatomic) NSString* name;
 @property (nonatomic) NSString* imageName;
+@property (nonatomic) NSString* name;
 
 // MARK: - Initializer declaration
 

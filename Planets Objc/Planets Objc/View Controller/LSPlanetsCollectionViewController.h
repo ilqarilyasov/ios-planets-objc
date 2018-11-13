@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSPlanetController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LSPlanetsCollectionViewController : UICollectionViewController
+
+@property LSPlanetController* planetController;
 
 @end
 

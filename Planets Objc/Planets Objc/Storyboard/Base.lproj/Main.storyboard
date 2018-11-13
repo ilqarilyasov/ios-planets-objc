@@ -106,7 +106,7 @@
                                 <rect key="frame" x="318" y="20" width="37" height="30"/>
                                 <state key="normal" title="Done"/>
                                 <connections>
-                                    <action selector="doneTapped:" destination="Htb-4r-Xby" eventType="touchUpInside" id="Quc-UJ-InX"/>
+                                    <action selector="doneTapped:" destination="Htb-4r-Xby" eventType="touchUpInside" id="vwm-iO-KG7"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SNw-n1-lFb">
@@ -121,7 +121,7 @@
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kza-xN-aBd">
                                         <rect key="frame" x="286" y="0.0" width="51" height="31"/>
                                         <connections>
-                                            <action selector="showPlutoSwithcTapped:" destination="Htb-4r-Xby" eventType="valueChanged" id="hM0-Ua-Vwa"/>
+                                            <action selector="showPluto:" destination="Htb-4r-Xby" eventType="valueChanged" id="Qxq-bh-avs"/>
                                         </connections>
                                     </switch>
                                 </subviews>

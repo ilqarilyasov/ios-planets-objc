@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // @property (attribute) propertyType* propertyName;
 
+@property (readonly) NSArray* planets;
 @property (readonly) NSArray* planetsWithPluto;
 @property (readonly) NSArray* planetsWithoutPluto;
 
